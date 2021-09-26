@@ -1,4 +1,4 @@
-# 2021-Latest-Bike-List
+# 2021-Bike-List
 
 #projext_Details :
 In this project I'm creatred for Who want to buy 2021's latest bike. There are have some latest bike that is released in 2021. And by this concept I was created this project. This website made by using React.Js that is libary of vanila js. And it's hook based like: useEffect, useState. Also use vanila css and other package for specific reason.I want to express some features of this project that is given below by using bullet point : 
