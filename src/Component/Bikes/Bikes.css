@@ -1,0 +1,16 @@
+.bike-card{
+    background-color: #fff;
+}
+.bike-card img{
+    width: 100%;
+}
+.card-text{
+    padding: 10px;
+}
+.card-text h4, h5, p{
+    margin: 0;
+}
+.tk-symbol{
+    font-size: 22px;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.header-area{
+    background-image: url(../../resource/images/banner_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.header-text{
+    background-color: rgba(239, 103, 40, 0.4);
+    border-bottom-right-radius: 60%;
+    border-top-right-radius: 60%;
+    padding: 100px 0 200px 0;
+    width: 45%;
+}
+.header-text h1, h2{
+    text-transform: uppercase;
+    width: 80%;
+    color: white;
+    margin-left: 40px;
+    font-weight: 700;
+}
+.header-text h2{
+    padding-top: 30px;
+}
