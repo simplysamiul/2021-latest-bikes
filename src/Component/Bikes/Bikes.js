@@ -1,4 +1,5 @@
 import React from 'react';
+import Rating from 'react-rating';
 import './Bikes.css';
 
 const Bikes = (props) => {
@@ -9,8 +10,19 @@ const Bikes = (props) => {
             <div className="card-text">
             <h4>{model_name}</h4>
             <h5>Company : {company_name}</h5>
-            <h5>Price : <span className="tk-symbol">&#2547;</span> {bike_price}</h5>
+            <h5>Price : <span className="tk-symbol">&#2547;</span> {bike_price} /-</h5>
             <p>Discount : {discount}</p>
+           <div className="bike-rating">
+           <Rating
+                emptySymbol="far fa-star"
+                fullSymbol="fas fa-star"
+                readonly
+                initialRating={rating}
+            />
+           </div>
+            <div className="buy-button">
+            <button> <span className="buy-icon"><i class="fas fa-shopping-cart"></i></span> buy</button>
+            </div>
             </div>
         </div>
     );
