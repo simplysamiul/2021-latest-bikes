@@ -1,6 +1,10 @@
 .bike-card{
     background-color: #fff;
     border-radius: 5px;
+    transition: 0.3s;
+}
+.bike-card:hover{
+    box-shadow: 0 0 9px 7px #2d2b2b;
 }
 .bike-card img{
     width: 100%;

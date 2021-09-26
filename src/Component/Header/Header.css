@@ -6,7 +6,7 @@
 
 }
 .header-text{
-    background-color: rgba(239, 103, 40, 0.4);
+    background-color: rgba(239, 103, 40, 0.5);
     border-bottom-right-radius: 60%;
     border-top-right-radius: 60%;
     padding: 100px 0 200px 0;
@@ -21,4 +21,46 @@
 }
 .header-text h2{
     padding-top: 30px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-area{
+        background-size: cover;
+        background-position: center;
+    }
+    .header-text{
+        width: 65%;
+    }
+    .header-text h1, h2{
+        margin-left: 15px;
+        width: 90%;
+    }
+    .header-text h1{
+        font-size: 26px;
+    }
+    .header-text h2{
+        font-size: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 792px) {
+    .header-area{
+        background-size: cover;
+        background-position: center;
+    }
+    .header-text{
+        width: 55%;
+    }
+    .header-text h1, h2{
+        margin-left: 15px;
+        width: 85%;
+    }
+    .header-text h1{
+        font-size: 26px;
+    }
+    .header-text h2{
+        font-size: 20px;
+    }
 }
