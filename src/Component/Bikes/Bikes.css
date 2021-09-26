@@ -9,8 +9,9 @@
 }
 .card-text{
     padding: 10px;
+    text-align: center;
 }
-.card-text h4, h5, p{
+.card-text h3, h5, p{
     margin: 0;
     padding: 0 0 10px 0;
 }
