@@ -15,3 +15,12 @@ In this project I'm creatred for Who want to buy 2021's latest bike. There are h
 So, This is the brief description in this project and if you visually see this description then click the below link. 
 
 live link : https://2021-biikes-list.netlify.app/
+
+
+
+----------------------------------------------------------------------------------------------
+
+
+![screenshot (6)](https://user-images.githubusercontent.com/76746810/134813223-acf473e9-47d8-4889-a167-42ee321690d4.png)
+
+
